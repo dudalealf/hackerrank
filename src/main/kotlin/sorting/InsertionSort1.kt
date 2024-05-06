@@ -20,7 +20,7 @@ fun insertionSort1(n: Int, arr: Array<Int>): Unit {
     }
 }
 
-fun showOutput(arr: Array<Int>): Unit = println(arr.joinToString())
+private fun showOutput(arr: Array<Int>): Unit = println(arr.joinToString(" "))
 
 fun main() {
     val n = readln().trim().toInt()
